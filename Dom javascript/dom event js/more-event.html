@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="deleted-info">Deleted your information</h1>
+    <input id="focus-blur" type="text" placeholder="">
+    <button id="event-handler" disabled>Delete</button>
+    <script>
+        document.getElementById('event-handler').addEventListener('click', function(){
+            document.getElementById('deleted-info').style.display = 'none';
+        })
+        document.getElementById('focus-blur').addEventListener('focus', function(){
+            document.body.style.backgroundColor = 'lightcoral';
+        })
+        document.getElementById('focus-blur').addEventListener('blur', function(){
+            document.body.style.backgroundColor = 'white';
+        })
+    </script>
+</body>
+</html>
