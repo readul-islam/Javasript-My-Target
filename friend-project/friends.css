@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Poppins:wght@400;500;600&family=Shizuru&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shizuru&display=swap');
+body{
+    box-sizing: border-box;
+    background-image: url('/banner-img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+/* top title */
+#top-title{
+    padding: 0;
+    margin: 0;
+    font-size: 35px;
+    color: rgb(44, 137, 44);
+    font-family: 'Monoton', cursive;
+}
+/* top title style */
+#top-title-style{
+    color: rgb(169, 22, 47);
+    font-weight: 600;
+    font-family: 'Monoton', cursive;
+}
+/* search input field */
+#search-box{
+    background-color: rgba(199, 163, 163, 0.401);
+}
+/* search button */
+#search-btn{
+    background-color:rgb(26, 118, 61);
+    color: white;
+    font-weight: 600;
+    transition: 0.4s ease;
+}
+#search-btn:hover{
+    background-color:rgb(26, 90, 50);
+    color: white;
+    font-weight: 600;
+}
+/* card image bg color */
+#card{
+    background-color: white;
+}
+/* details img title */
+#details-img-title{
+    color: #0356fc;
+    font-weight: 700;
+    font-family: 'Shizuru', cursive;
+}
+/* card details image size */
+.details-img{
+    height:400px;
+    width: 300px;
+    margin-top: 35px;
+}
+/* phone details container */
+#phone-details-container{
+    overflow: hidden;
+    background-color: rgb(234, 240, 240);
+}
+/* phone text details styles */
+.font-style{
+    color:#1f2729;
+    font-weight: 400;
+}
+/* incorrect input error */
+#icorrectInput{
+    display: none;
+}
+/* loading spinner */
+#spinnerShow{
+    display: none;
+}
+/* Result not found */
+#result-not-found-container{
+    text-align: center;
+    width: 500px;
+}
+/* result not found */
+#result-not-found{
+    display: none;
+}
+/* card button */
+#card-btn{
+    border-style: none;
+}
+/* See More button */
+#see-more{
+    display: none;
+    color: rgb(0, 102, 255);
+    transition: 0.4s ease;
+}
+#see-more:hover{
+    background-color:rgb(0, 102, 255);
+    color: white;
+}
